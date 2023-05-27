@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+}
+
+body {
+    background-color: #c4b19d;
+    background-size: cover;
+    color: #FAFFFD;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+header {
+    background-color: #603722;
+    color: white;
+    padding: 0.1em;
+    border-radius: 0.5em;
+    border-style: inset;
+    border-width: 1rem;
+    border-color: bisque;
+}
+
+a {
+    color: azure;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.listado :hover {
+    padding: 1.3rem;
+    transition: 0.5s;
+    background-color: #815E5B;
+    border-radius: 1rem;
+}
+
+li:hover {
+    padding: 1.3rem;
+    transition: 0.5s;
+    background-color: #815E5B;
+    border-radius: 1rem;
+}
+
+.listita {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding: 1.3rem;
+    width: 12rem;
+    height: 8rem;
+    border-radius: 0.5rem;
+}
+
+.grande {
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 1em;
+    text-align: center;
+}
+
+.cafes {
+    width: 40%;
+    height: 35%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.mocca {
+    width: 33.76%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.latte {
+    width: 46.7%;
+    height: 37%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.capucchino {
+    width: 31.1%;
+    height: 29%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+.coffee {
+    background-color: white;
+}
+
+button {
+    background-color: #2F4F4F;
+    color: white;
+    padding: 0.1em 0.3em;
+    border: none;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #708090;
+}
+
+footer {
+    background-color: #291F1E;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 0.5em
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    border-radius: 5rem;
+    height: 20rem;
+    width: 20rem;
+
+}
+
+.grid:hover {
+    transition: 0.5s;
+    padding: 0.5rem;
+    border-style: double;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-rows: 0.5fr 1.5fr 0.5fr 1.5fr 1.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Comida . ."
+        "Medialunas Sándwichs Snacks"
+        "Productos-para-llevar . ."
+        "café-tostado-medio Café-tostado-oscuro Té"
+        "Termos-para-bebidas-calientes Vasos-reutilizables Tazas";
+}
+
+.Comida {
+    grid-area: Comida;
+}
+
+.Medialunas {
+    grid-area: Medialunas;
+}
+
+.Sandwichs {
+    grid-area: Sándwichs;
+}
+
+.Snacks {
+    grid-area: Snacks;
+}
+
+.Productos-para-llevar {
+    grid-area: Productos-para-llevar;
+}
+
+.cafe-tostado-medio {
+    grid-area: café-tostado-medio;
+}
+
+.Cafe-tostado-oscuro {
+    grid-area: Café-tostado-oscuro;
+}
+
+.Té {
+    grid-area: Té;
+}
+
+.Termos-para-bebidas-calientes {
+    grid-area: Termos-para-bebidas-calientes;
+}
+
+.Vasos-reutilizables {
+    grid-area: Vasos-reutilizables;
+}
+
+.Tazas {
+    grid-area: Tazas;
+}
+
+@media (max-width:425px) {
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .listita {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+        grid-template-rows: 0.5fr 1.5fr 1.5fr 1.5fr 0.5fr 1.5fr 2.0addfr 1.5fr 1.5fr 1.5fr 1.5fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "Comida"
+            "Medialunas"
+            "sandwich"
+            "snacks"
+            "Productos-para-llevar"
+            "cafe-tostado-medio"
+            "cafe-tostado-oscuro"
+            "Té"
+            "Termos-para-bebidas-calientes"
+            "Vasos-reutilizables"
+            "Tazas";
+        }
+
+        .Comida {
+            grid-area: Comida;
+        }
+
+        .Medialunas {
+            grid-area: Medialunas;
+        }
+
+        .sandwich {
+            grid-area: sandwich;
+        }
+
+        .snacks {
+            grid-area: snacks;
+        }
+
+        .cafe-tostado-medio {
+            grid-area: cafe-tostado-medio;
+        }
+
+        .cafe-tostado-oscuro {
+            grid-area: cafe-tostado-oscuro;
+        }
+
+        .Té {
+            grid-area: Té;
+        }
+
+        .Termos-para-bebidas-calientes {
+            grid-area: Termos-para-bebidas-calientes;
+        }
+
+        .Vasos-reutilizables {
+            grid-area: Vasos-reutilizables;
+        }
+
+        .Tazas {
+            grid-area: Tazas;
+        }
+
+}

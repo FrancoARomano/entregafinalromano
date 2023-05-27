@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CoffeExpress</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./Style.css">
+    </head>
+    <body>
+        <header>
+            <ul class="listita">
+                <li><a href="index.html"><img class="logo" src="./assets/logo.png" alt="logo"></a></li>
+                <li class="grande"><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+            </ul> 
+        </header>
+        <main>
+            <h2>¡Bienvenido al sitio web de CoffeExpress!</h2>
+            <p>Ofrecemos una variedad de cafés para satisfacer todos los gustos. Desde nuestro café clásico hasta nuestras bebidas especiales, estamos seguros de que encontrará algo que le guste.</p>
+            <h3><u>Nuestros Cafés clásicos</u></h3>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./assets/capuchino.png" class="capucchino" class="d-block w-100" alt="capucchino">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Capucchino</h5>
+                            <p class="coffee">Delicioso café de origen Italiano compuesto de 125 ml de leche y 25 de café adornado con canela en polvo</p>
+                        </div>
+                    </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/latte.jpeg" class="latte" class="d-block w-100" alt="latte">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Latte</h5>
+                        <p class="coffee">Clásico café con mucha leche y una fina capa de espuma característico por sus dibujos</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/expresso.jpg" class="cafes" class="d-block w-100" alt="expresso">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Expresso</h5>
+                        <p class="coffee">Café de filtro puro para los amantes del sabor amargo</p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </br>
+            </br>
+            <h3><u>Nuestras bebidas especiales:</u></h3>
+            </br>
+            </br>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/mocca.jpeg" class="mocca" class="d-block w-100" alt="mocca">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Mocca</h5>
+                            <p>Variante del café con leche con la diferencia de que lleva una barra de chocolate derretido</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/frapuccino.png" class="cafes" class="d-block w-100" alt="frapuccino">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Frappuccino</h5>
+                        <p>Café frío mezclado con crema y salsas de diversos sabores</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/coldbrew.png" class="cafes" class="d-block w-100" alt="coldbrew">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>ColdBrew</h5>
+                        <p>Café con hielo y un toque de leche con un fuerte sabor amargo</p>
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </br>
+            </br>            
+            </br>
+        </main>
+        <footer>
+            <p class="footer">Derechos Reservados © 2023 Servicio de Café</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
