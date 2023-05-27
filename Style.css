@@ -34,13 +34,6 @@ li {
     padding: 1rem;
 }
 
-.listado :hover {
-    padding: 1.3rem;
-    transition: 0.5s;
-    background-color: #815E5B;
-    border-radius: 1rem;
-}
-
 li:hover {
     padding: 1.3rem;
     transition: 0.5s;
@@ -48,21 +41,34 @@ li:hover {
     border-radius: 1rem;
 }
 
-.listita {
+.listaNavBar {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo {
+.logoCafe {
     padding: 1.3rem;
     width: 12rem;
     height: 8rem;
     border-radius: 0.5rem;
 }
 
-.grande {
+.letraGrande {
     font-size: 1.5rem;
+}
+
+.subtituloCafe {
+    text-decoration: underline;
+    padding: 2rem;
+}
+
+.subtituloInicio{
+    padding: 3.2rem;
+}
+
+.textoIntroductorio{
+    padding: 0.5rem;
 }
 
 main {
@@ -70,28 +76,28 @@ main {
     text-align: center;
 }
 
-.cafes {
+.cafesComun {
     width: 40%;
     height: 35%;
     object-fit: cover;
     border-radius: 1rem;
 }
 
-.mocca {
+.moccaCafe {
     width: 33.76%;
     height: 30%;
     object-fit: cover;
     border-radius: 1rem;
 }
 
-.latte {
+.latteCafe {
     width: 46.7%;
     height: 37%;
     object-fit: cover;
     border-radius: 1rem;
 }
 
-.capucchino {
+.capucchinoCafe {
     width: 31.1%;
     height: 29%;
     object-fit: cover;
@@ -102,7 +108,7 @@ h5 {
     font-size: 2rem;
 }
 
-.coffee {
+.coffeeDescripcion {
     background-color: white;
 }
 
@@ -128,7 +134,7 @@ footer {
     border-radius: 0.5em
 }
 
-.footer {
+.footerDerechos {
     display: flex;
     justify-content: center;
 }
