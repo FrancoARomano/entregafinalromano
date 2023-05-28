@@ -4,17 +4,17 @@
 }
 
 body {
-    background-color: #c4b19d;
-    background-size: cover;
+    background: linear-gradient(-40deg,#C0B7B1,#c4b19d,#C69C72,#603722,#61210F);
     color: #FAFFFD;
     font-size: 1.0rem;
     font-weight: bold;
+    background-size: cover;
 }
 
 header {
     background-color: #603722;
     color: white;
-    padding: 0.1em;
+    padding: 0.01em;
     border-radius: 0.5em;
     border-style: inset;
     border-width: 1rem;
@@ -110,9 +110,13 @@ h5 {
 
 .coffeeDescripcion {
     background-color: white;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
 }
 
-button {
+.botonCompras {
     background-color: #2F4F4F;
     color: white;
     padding: 0.1em 0.3em;
@@ -121,7 +125,7 @@ button {
     margin-top: 1em;
 }
 
-button:hover {
+.botonCompras:hover {
     cursor: pointer;
     background-color: #708090;
 }
@@ -130,8 +134,8 @@ footer {
     background-color: #291F1E;
     color: white;
     text-align: center;
-    padding: 1em;
-    border-radius: 0.5em
+    padding: 1.5em;
+    border-radius: 1rem;
 }
 
 .footerDerechos {
@@ -139,146 +143,29 @@ footer {
     justify-content: center;
 }
 
-.grid {
-    border-radius: 5rem;
-    height: 20rem;
-    width: 20rem;
-
+.capsulasNespresso {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 50%;
 }
 
-.grid:hover {
-    transition: 0.5s;
-    padding: 0.5rem;
-    border-style: double;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    grid-template-rows: 0.5fr 1.5fr 0.5fr 1.5fr 1.2fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "Comida . ."
-        "Medialunas Sándwichs Snacks"
-        "Productos-para-llevar . ."
-        "café-tostado-medio Café-tostado-oscuro Té"
-        "Termos-para-bebidas-calientes Vasos-reutilizables Tazas";
-}
-
-.Comida {
-    grid-area: Comida;
-}
-
-.Medialunas {
-    grid-area: Medialunas;
-}
-
-.Sandwichs {
-    grid-area: Sándwichs;
-}
-
-.Snacks {
-    grid-area: Snacks;
-}
-
-.Productos-para-llevar {
-    grid-area: Productos-para-llevar;
-}
-
-.cafe-tostado-medio {
-    grid-area: café-tostado-medio;
-}
-
-.Cafe-tostado-oscuro {
-    grid-area: Café-tostado-oscuro;
-}
-
-.Té {
-    grid-area: Té;
-}
-
-.Termos-para-bebidas-calientes {
-    grid-area: Termos-para-bebidas-calientes;
-}
-
-.Vasos-reutilizables {
-    grid-area: Vasos-reutilizables;
-}
-
-.Tazas {
-    grid-area: Tazas;
+.subtituloCapsulas{
+    padding: 4rem;
+    text-decoration: underline;
 }
 
 @media (max-width:425px) {
 
-    .logo {
+    .logoCafe {
         width: 100%;
         height: auto;
     }
 
-    .listita {
+    .listaNavBar {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
-        grid-template-rows: 0.5fr 1.5fr 1.5fr 1.5fr 0.5fr 1.5fr 2.0addfr 1.5fr 1.5fr 1.5fr 1.5fr;
-        gap: 0px 0px;
-        grid-template-areas:
-            "Comida"
-            "Medialunas"
-            "sandwich"
-            "snacks"
-            "Productos-para-llevar"
-            "cafe-tostado-medio"
-            "cafe-tostado-oscuro"
-            "Té"
-            "Termos-para-bebidas-calientes"
-            "Vasos-reutilizables"
-            "Tazas";
-        }
-
-        .Comida {
-            grid-area: Comida;
-        }
-
-        .Medialunas {
-            grid-area: Medialunas;
-        }
-
-        .sandwich {
-            grid-area: sandwich;
-        }
-
-        .snacks {
-            grid-area: snacks;
-        }
-
-        .cafe-tostado-medio {
-            grid-area: cafe-tostado-medio;
-        }
-
-        .cafe-tostado-oscuro {
-            grid-area: cafe-tostado-oscuro;
-        }
-
-        .Té {
-            grid-area: Té;
-        }
-
-        .Termos-para-bebidas-calientes {
-            grid-area: Termos-para-bebidas-calientes;
-        }
-
-        .Vasos-reutilizables {
-            grid-area: Vasos-reutilizables;
-        }
-
-        .Tazas {
-            grid-area: Tazas;
-        }
 
 }
