@@ -59,8 +59,16 @@ li:hover {
 }
 
 .subtituloCafe {
-    text-decoration: underline;
     padding: 2rem;
+    font-size: 250%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display: block;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .subtituloInicio{
@@ -153,6 +161,20 @@ footer {
 .subtituloCapsulas{
     padding: 4rem;
     text-decoration: underline;
+}
+
+.cardNespresso{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem;
+}
+
+.imagenesMenu{
+    height: 20rem;
+    width: 22rem;
+    border-radius:100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width:425px) {
