@@ -1,20 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>CoffeExpress</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./Style.css">
-    </head>
-    <body>
 
+<head>
+    <title>CoffeExpress</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style.css">
+</head>
 
+<body>
+    <header>
+        <ul class="listaNavBar">
+            <li><a href="index.html"><img class="logoCafe" src="./assets/logo.webp" alt="logo"></a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="capsulas.html">Cápsulas</a></li>
+            <li><a href="barismo.html">Barismo</a></li>
+            <li><a class="letraGrande" href="contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Nuestras redes sociales</h2>
+        <p>Instagram: CoffeExpress_ig</p>
+        <p>Twitter: CoffeExpress_twitter</p>
+        <h3>Nuestro número</h3>
+        <p>0000-000-0000</p>
+        <h4>Nuestro e-mail</h4>
+        <p>CoffeExpress_mail@gmail.com.ar</p>
+        <h2 class="subtituloCafe">Adicionalmente abrimos un espacio para cualquier duda que surja</h2>
+        <form>
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" name="nombre"><br>
+            <label for="telefono">Número de teléfono:</label><br>
+            <input type="tel" name="telefono"><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" name="email"><br>
+            <label for="motivo">¿Cuál es el motivo de su consulta?</label><br>
+            <input type="text" name="motivo"><br>
+            <label for="ayuda">¿En qué podemos ayudarle?</label><br>
+            <textarea name="ayuda"></textarea><br>
+            <label for="experiencia">¿Ha tenido alguna experiencia previa con nuestros productos/servicios?</label><br>
+            <input type="radio" name="experiencia" value="si">
+            <label for="experiencia-si">Sí</label>
+            <input type="radio" name="experiencia" value="no">
+            <label for="experiencia-no">No</label><br>
+            <label for="calificacion">Si es así, ¿cómo calificaría su experiencia?</label><br>
+            <select id="calificacion" name="calificacion">
+                <option value="5">Excelente</option>
+                <option value="4">Muy bueno</option>
+                <option value="3">Bueno</option>
+                <option value="2">Regular</option>
+                <option value="1">Malo</option>
+            </select><br>
+            <label for="comentario">¿Tiene alguna pregunta adicional o comentario que quiera hacer?</label><br>
+            <textarea name="comentario"></textarea><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+    </main>
+    <footer>
+        <p class="footerDerechos">Derechos Reservados © 2023 Servicio de Café</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
 
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    </body>
 </html>
