@@ -1,0 +1,11 @@
+footer {
+    background-color: #291F1E;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    border-radius: 1rem;
+    .footerDerechos {
+        display: flex;
+        justify-content: center;
+    }
+}

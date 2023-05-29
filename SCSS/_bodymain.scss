@@ -1,0 +1,105 @@
+main{
+    padding: 1em;
+    text-align: center;
+    .subtituloInicio{
+        padding: 3.2rem;
+    }
+    .textoIntroductorio{
+        padding: 0.5rem;
+    }
+    .subtituloCafe {
+        padding: 2rem;
+        font-size: 250%;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        display: block;
+        font-weight: 600;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .capucchinoCafe {
+        width: 31.1%;
+        height: 29%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    .coffeeDescripcion {
+        background-color: white;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 240px;
+    }
+    .latteCafe {
+        width: 35%;
+        height: 37%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    .cafesComun {
+        width: 40%;
+        height: 35%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    .moccaCafe {
+        width: 33.76%;
+        height: 30%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    .imagenesMenu{
+        height: 20rem;
+        width: 22rem;
+        border-radius:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .botonCompras {
+        background-color: #2F4F4F;
+        color: white;
+        padding: 0.1em 0.3em;
+        border: none;
+        border-radius: 0.5em;
+        margin-top: 1em;
+        &:hover{ 
+            cursor: pointer;
+            background-color: #708090;
+        }
+    }
+    h5 {
+        font-size: 2rem;
+    }
+    .subtituloCapsulas{
+        padding: 4rem;
+        text-decoration: underline;
+    }
+    .capsulasNespresso {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 50%;
+    }
+    .cardNespresso{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5rem;
+    }
+    .cursoBarismo{
+        list-style: none;
+        padding: 1rem;
+        &:hover{
+            padding: 1.3rem;
+            transition: 0.5s;
+            background-color: #815E5B;
+            border-radius: 1rem;
+        }
+    }
+    form{
+        text-align: center;
+        box-shadow: #291F1E;
+        padding: 1rem;
+    }
+}

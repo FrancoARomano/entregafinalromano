@@ -1,0 +1,202 @@
+body {
+  background: linear-gradient(-40deg, #C0B7B1, #c4b19d, #C69C72, #603722, #61210F);
+  color: #FAFFFD;
+  font-weight: bold;
+  background-size: cover;
+}
+body header {
+  background-color: #603722;
+  color: white;
+  padding: 0.01em;
+  border-radius: 0.5em;
+  border-style: inset;
+  border-width: 1rem;
+  border-color: bisque;
+}
+body header .listaNavBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .listaNavBar li {
+  list-style: none;
+  padding: 1rem;
+}
+body header .listaNavBar li:hover {
+  padding: 1.3rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #815E5B;
+  border-radius: 1rem;
+}
+body header .listaNavBar li .letraGrande {
+  font-size: 1.5rem;
+}
+body header .listaNavBar li a {
+  color: azure;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .listaNavBar li a .logoCafe {
+  padding: 1.3rem;
+  width: 12rem;
+  height: 8rem;
+  border-radius: 0.5rem;
+}
+
+main {
+  padding: 1em;
+  text-align: center;
+}
+main .subtituloInicio {
+  padding: 3.2rem;
+}
+main .textoIntroductorio {
+  padding: 0.5rem;
+}
+main .subtituloCafe {
+  padding: 2rem;
+  font-size: 250%;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  display: block;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+main .capucchinoCafe {
+  width: 31.1%;
+  height: 29%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+main .coffeeDescripcion {
+  background-color: white;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+}
+main .latteCafe {
+  width: 35%;
+  height: 37%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+main .cafesComun {
+  width: 40%;
+  height: 35%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+main .moccaCafe {
+  width: 33.76%;
+  height: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+main .imagenesMenu {
+  height: 20rem;
+  width: 22rem;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .botonCompras {
+  background-color: #2F4F4F;
+  color: white;
+  padding: 0.1em 0.3em;
+  border: none;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+main .botonCompras:hover {
+  cursor: pointer;
+  background-color: #708090;
+}
+main h5 {
+  font-size: 2rem;
+}
+main .subtituloCapsulas {
+  padding: 4rem;
+  text-decoration: underline;
+}
+main .capsulasNespresso {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 50%;
+}
+main .cardNespresso {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5rem;
+}
+main .cursoBarismo {
+  list-style: none;
+  padding: 1rem;
+}
+main .cursoBarismo:hover {
+  padding: 1.3rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #815E5B;
+  border-radius: 1rem;
+}
+main form {
+  text-align: center;
+  -webkit-box-shadow: #291F1E;
+          box-shadow: #291F1E;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #291F1E;
+  color: white;
+  text-align: center;
+  padding: 1.5em;
+  border-radius: 1rem;
+}
+footer .footerDerechos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 425px) {
+  .listaNavBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .listaNavBar .logoCafe {
+    width: 100%;
+    height: auto;
+  }
+}

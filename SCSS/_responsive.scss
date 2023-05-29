@@ -1,0 +1,12 @@
+@media (max-width:425px) {
+    .listaNavBar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .logoCafe {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}

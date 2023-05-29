@@ -1,0 +1,47 @@
+
+body {
+    background: linear-gradient(-40deg,#C0B7B1,#c4b19d,#C69C72,#603722,#61210F);
+    color: #FAFFFD;
+    font-weight: bold;
+    background-size: cover;
+    header{
+        background-color: #603722;
+        color: white;
+        padding: 0.01em;
+        border-radius: 0.5em;
+        border-style: inset;
+        border-width: 1rem;
+        border-color: bisque;
+        .listaNavBar{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                list-style: none;
+                padding: 1rem;
+                &:hover {
+                    padding: 1.3rem;
+                    transition: 0.5s;
+                    background-color: #815E5B;
+                    border-radius: 1rem;
+                    }
+                    .letraGrande {
+                        font-size: 1.5rem;
+                    }
+                    a {
+                        color: azure;
+                        font-size: 1rem;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        .logoCafe {
+                            padding: 1.3rem;
+                            width: 12rem;
+                            height: 8rem;
+                            border-radius: 0.5rem;
+                        }
+                }
+            }
+        }
+    }
+}
