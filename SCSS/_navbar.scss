@@ -18,7 +18,7 @@ body {
             align-items: center;
             li{
                 list-style: none;
-                padding: 1rem;
+                padding: 0.1rem;
                 &:hover {
                     padding: 1.3rem;
                     transition: 0.5s;
@@ -33,12 +33,10 @@ body {
                         font-size: 1rem;
                         display: flex;
                         justify-content: space-around;
-                        align-items: center;
+                        align-items: start;
                         .logoCafe {
-                            padding: 1.3rem;
-                            width: 12rem;
-                            height: 8rem;
-                            border-radius: 0.5rem;
+                            width: 60%;
+                            height: 40%;
                         }
                 }
             }
